@@ -1,9 +1,9 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-import Description from './description/Description';
-import Feedback from './feedback/Feedback';
-import Options from './options/Options';
-import Notification from './notification/Notification';
+import Description from './Description/Description';
+import Feedback from './Feedback/Feedback';
+import Options from './Options/Options';
+import Notification from './Notification/Notification';
 
 function App() {
   const reviews = {
