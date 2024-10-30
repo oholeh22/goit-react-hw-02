@@ -1,1 +1,13 @@
+.title {
+  font-size: 3.2rem;
+  color: #a7551b;
+  font-family: "Georgia", serif;
+}
 
+.description {
+  color: #a7551b;
+  font-family: "Georgia", serif;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 1.8rem;
+}

@@ -1,4 +1,4 @@
-import React from 'react';
+import css from './options.module.css';
 
 const Options = ({ options, onLeaveFeedback, onReset }) => {
   return (

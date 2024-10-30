@@ -1,12 +1,34 @@
 .feedback {
-  margin-top: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin: 1em 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feedback p {
+  font-size: 1.2em;
+  margin: 0.5em 0;
+}
+
+.good {
+  color: #4caf50;
+}
+
+.neutral {
+  color: #ff9800;
+}
+
+.bad {
+  color: #f44336;
+}
+
+.total {
+  font-weight: bold;
+  color: #ff0606;
 }
 
 .positive {
-  font-style: italic;
-}
-
-p {
-  font-weight: 300;
-  font-size: large;
+  font-weight: bold;
+  color: #4caf50;
 }
