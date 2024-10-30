@@ -1,4 +1,4 @@
-import css from './options.module.css';
+import style from './options.module.css';
 
 const Options = ({ options, onLeaveFeedback, onReset }) => {
   return (
