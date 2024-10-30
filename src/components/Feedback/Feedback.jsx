@@ -1,4 +1,4 @@
-import style from './feedback.module.css';
+import style from './feedback.module.css'
 
 export default function Feedback({
   good, neutral, bad, totalFeedback, positiveFeedback,
