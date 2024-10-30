@@ -1,16 +1,18 @@
 import style from './options.module.css';
 
-const Options = ({ options, onLeaveFeedback, onReset }) => {
+const Options = ({ options, onLeaveFeedback, onReset, feedbackCount }) => {
   return (
     <div>
       {options.map(option => (
-        <button key={option} onClick={() => onLeaveFeedback(option)}>
+        <button className={style.btn} key={option} onClick={() => onLeaveFeedback(option)}>
           {option}
         </button>
       ))}
-      <button onClick={onReset} style={{ marginLeft: '10px' }}>
-        Reset
-      </button>
+      {feedbackCount > 0 && (
+        <button className={style.btn} onClick={onReset} style={{ marginLeft: '10px' }}>
+          Reset
+        </button>
+      )}
     </div>
   );
 };

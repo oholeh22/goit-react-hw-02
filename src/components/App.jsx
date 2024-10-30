@@ -44,6 +44,7 @@ function App() {
         options={['good', 'neutral', 'bad']} 
         onLeaveFeedback={updateFeedback} 
         onReset={resetFeedback}
+        feedbackCount={totalFeedback}
       />
       {totalFeedback > 0 ? (
         <Feedback
